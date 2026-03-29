@@ -15,7 +15,7 @@
 		"max-length": 4,
 		// "align":
 		// "justify":
-		// "on-click":
+		"on-click": "nwg-drawer -mb 10 -mr 10 -ml 10 -mt 10"
 		// "on-click-middle":
 		// "on-click-right":
 		// "on-update":
@@ -23,7 +23,7 @@
 		// "on-scroll-down":
 		// "smooth-scrolling-threshold":
 		// "tooltip":
-		"tooltip-format": "No command set"
+		// "tooltip-format": "nwg-drawer -mb 10 -mr 10 -ml 10 -mt 10"
 		// "escape":
 		// "menu":
 		// "menu-file":
