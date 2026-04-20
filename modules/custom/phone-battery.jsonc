@@ -1,0 +1,8 @@
+{
+  "custom/phone-battery": {
+    "exec": "~/.config/waybar/scripts/phone-battery.sh",
+    "interval": 10,
+    "format": "📱 {}",
+    "return-type": "json"
+  }
+}

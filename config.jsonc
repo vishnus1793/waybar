@@ -20,7 +20,7 @@
 		"hyprland/window"
 	],
 	"modules-center": [
-		"hyprland/language",
+		// "hyprland/language",
 		"custom/left_div#2",
 		"temperature",
 		"custom/left_div#3",
@@ -44,6 +44,7 @@
 	],
 	"modules-right": [
 		"mpris",
+		"custom/phone-battery",
 		"custom/left_div#6",
 		"group/pulseaudio",
 		"custom/left_div#7",
@@ -53,7 +54,8 @@
 		"custom/left_inv#2",
 		"custom/power"
 	],
-
+	
+	
 	/*-------------
 	    Options
 	-------------*/

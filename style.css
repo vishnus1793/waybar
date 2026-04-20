@@ -41,3 +41,9 @@ tooltip {
 tooltip > box {
 	padding: 0 6px;
 }
+#custom-mpris_thumb {
+    padding: 4px 10px;
+    background: rgba(30,30,30,0.7);
+    border-radius: 10px;
+    font-size: 12px;
+}
