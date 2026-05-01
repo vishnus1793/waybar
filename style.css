@@ -47,3 +47,11 @@ tooltip > box {
     border-radius: 10px;
     font-size: 12px;
 }
+
+#custom-phone-battery {
+    padding: 0 10px;
+}
+
+#custom-phone-battery.disconnected {
+    color: #888;
+}

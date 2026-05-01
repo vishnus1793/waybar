@@ -21,6 +21,7 @@
 	],
 	"modules-center": [
 		// "hyprland/language",
+		
 		"custom/left_div#2",
 		"temperature",
 		"custom/left_div#3",
@@ -45,6 +46,7 @@
 	"modules-right": [
 		"mpris",
 		"custom/phone-battery",
+		// "custom/bluetooth",
 		"custom/left_div#6",
 		"group/pulseaudio",
 		"custom/left_div#7",
