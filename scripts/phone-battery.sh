@@ -28,7 +28,7 @@ else
     elif [ "$BT_CHARGE" -ge 60 ]; then ICON=""
     elif [ "$BT_CHARGE" -ge 40 ]; then ICON=""
     elif [ "$BT_CHARGE" -ge 20 ]; then ICON=""
-    else ICON=""
+    else ICON=""
     fi
 
     BT_TEXT="🎧 $ICON $BT_CHARGE%"
