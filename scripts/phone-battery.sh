@@ -9,7 +9,7 @@ PHONE_CHARGE=$(qdbus-qt5 org.kde.kdeconnect /modules/kdeconnect/devices/$PHONE_I
 PHONE_STATE=$(qdbus-qt5 org.kde.kdeconnect /modules/kdeconnect/devices/$PHONE_ID/battery org.kde.kdeconnect.device.battery.isCharging 2>/dev/null)
 
 if [ -z "$PHONE_CHARGE" ]; then
-    PHONE_TEXT="📱 N/A"
+    PHONE_TEXT="📱 N-C"
 else
     if [ "$PHONE_STATE" = "true" ]; then
         PHONE_TEXT="⚡ $PHONE_CHARGE%"
