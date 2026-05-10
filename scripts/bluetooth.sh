@@ -4,7 +4,7 @@ BT_CHARGE=$(upower -i "$BT_DEVICE" 2>/dev/null | awk '/percentage/ {print $2}' |
 if [ -z "$BT_CHARGE" ]; then
     BT_TEXT="🎧 N/A"
 else
-    if [ "$BT_CHARGE" -ge 80 ]; then ICON=""
+    if [ "$BT_CHARGE" -ge 80 ]; then ICON=""3
     elif [ "$BT_CHARGE" -ge 60 ]; then ICON=""
     elif [ "$BT_CHARGE" -ge 40 ]; then ICON=""
     elif [ "$BT_CHARGE" -ge 20 ]; then ICON=""
