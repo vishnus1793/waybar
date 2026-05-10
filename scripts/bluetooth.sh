@@ -15,4 +15,4 @@ else
 fi
 
 # ----------- OUTPUT ----------- #
-echo "{\"text\": \"$PHONE_TEXT  |  $BT_TEXT\", \"tooltip\": \"Phone: $PHONE_CHARGE% | BT: $BT_CHARGE%\"}"
+echo "{$BT_TEXT\", \"tooltip\": \"Phone: $PHONE_CHARGE% | BT: $BT_CHARGE%\"}"
