@@ -46,7 +46,7 @@
 	"modules-right": [
 		"mpris",
 		"custom/phone-battery",
-		// "custom/bluetooth",
+		"custom/bluetooth",
 		"custom/left_div#6",
 		"group/pulseaudio",
 		"custom/left_div#7",
