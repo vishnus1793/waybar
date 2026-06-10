@@ -45,6 +45,7 @@
 	],
 	"modules-right": [
 		"mpris",
+		"custom/uptime",
 		"custom/phone-battery",
 		"custom/bluetooth",
 		"custom/left_div#6",

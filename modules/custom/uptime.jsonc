@@ -1,0 +1,8 @@
+{
+  "custom/uptime": {
+    "exec": "~/.config/waybar/scripts/uptime.sh",
+    "interval": 1,
+    "format": "⏱️ {}"
+  }
+}
+
