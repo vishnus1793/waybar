@@ -2,7 +2,7 @@
   "include": [
     "~/.config/waybar/modules/*.jsonc",
     "~/.config/waybar/modules/custom/*.jsonc",
-    "~/.config/waybar/modules/hyprland/*.jsonc",
+    "~/.config/waybar/modules/hyprland/*.jsonc"
   ],
 
   /*------------
@@ -14,7 +14,7 @@
     "custom/left_div#1",
     "hyprland/workspaces",
     "custom/right_div#1",
-    "hyprland/window",
+    "hyprland/window"
   ],
 
   "modules-center": [
@@ -40,7 +40,7 @@
     "network",
     "bluetooth",
     "custom/update",
-    "custom/right_div#5",
+    "custom/right_div#5"
   ],
 
   "modules-right": [
@@ -55,7 +55,7 @@
     "custom/left_div#8",
     "battery",
     "custom/left_inv#2",
-    "custom/power",
+    "custom/power"
   ],
 
   /*-------------
@@ -86,7 +86,7 @@
   // "passthrough":
   // "ipc":
   // "id":
-  "reload_style_on_change": true,
+  "reload_style_on_change": true
   // "on-sigusr1":
   // "on-sigusr2":
 }
