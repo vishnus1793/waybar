@@ -16,7 +16,8 @@
 			"9": "9"
 		},
 		"persistent-workspaces": {
-			"*": 9
+			"*": 3
+			
 		},
 		// "persistent-only":
 		// "show-special":
